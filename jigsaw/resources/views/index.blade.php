@@ -137,7 +137,7 @@ blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 <!-- content -->
 <div class="wrapper row2">
   <div id="container" class="clear">
-    <section id="slider"><a href="#"><img src="images/18631.jpg" alt=""></a></section>
+    <section id="slider"><a href="#"><img src="18631.jpg" alt=""></a></section>
     <!-- content body -->
     <aside id="left_column">
       <h2 class="title">Pagínas UCT</h2>
