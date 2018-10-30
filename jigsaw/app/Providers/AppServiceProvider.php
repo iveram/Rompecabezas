@@ -1,6 +1,6 @@
 <?php
 
-namespace jigsaw\Providers;
+namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
