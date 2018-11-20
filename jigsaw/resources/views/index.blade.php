@@ -10,7 +10,9 @@
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
 <body>
+
 <div class="wrapper row1">
+
   <header id="header" class="clear">
     <div id="hgroup">
       <h1><a href="#">Grupos Jigsaw</a></h1>
@@ -22,7 +24,20 @@
         <li><a href="#">Inicio</a></li>
         <li><a href="{{ url('cursos') }}">Cursos</a></li>
         <li><a href="{{ url('mensajes') }}">Mensajes</a></li>
-        <li><a href="#">Modulos</a></li>
+        <li><a href="{{ url('temas') }}">Temas</a></li>
+        @if (Route::has('login'))
+
+                    @auth
+                        <li><a href="{{ url('/home') }}">Home</a></li>
+                    @else
+                        <li><a href="{{ route('login') }}">LOGIN</a></li>
+
+                        @if (Route::has('register'))
+                            <li><a href="{{ route('register') }}">REGISTER</a></li>
+                        @endif
+                    @endauth
+
+            @endif
         <li class="last"><a href="#">Salir</a></li>
       </ul>
     </nav>

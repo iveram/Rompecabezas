@@ -37,8 +37,8 @@
       <h2 class="title">Mensajes</h2>
       <section class="last">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="{{ url('Mensajes/create') }}">Enviar Mensaje</a>
-          <a class="navbar-brand" href="{{ url('Mensajes/MisMensajes') }}">Mis Mensajes</a>
+          <a class="navbar-brand" href="{{ url('mensajes/create') }}">Enviar Mensaje</a>
+          <a class="navbar-brand" href="{{ url('mensajes/view') }}">Mis Mensajes</a>
         </nav>
       <h2 class="title">Páginas UCT</h2>
       <nav>

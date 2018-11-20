@@ -4,7 +4,7 @@ namespace Jigsaw\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class mensajeController extends Controller
+class temasController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class mensajeController extends Controller
      */
     public function index()
     {
-        return view('Mensajes.indexMensaje');
+        return view('temas.indexTemas');
     }
 
     /**
@@ -23,7 +23,7 @@ class mensajeController extends Controller
      */
     public function create()
     {
-        return view('Mensajes.crearMensaje');
+        return view('temas.crearTemas');
     }
 
     /**
