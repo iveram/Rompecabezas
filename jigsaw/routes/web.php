@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('cursos', 'CursoController');
+Route::resource('mensajes', 'MensajeController');

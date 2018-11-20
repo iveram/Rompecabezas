@@ -21,7 +21,7 @@
         <li><a href="#">Bienvenido</a></li><!--Nombre del usuario--> 
         <li><a href="#">Inicio</a></li>
         <li><a href="{{ url('cursos') }}">Cursos</a></li>
-        <li><a href="#">Mensajes</a></li>
+        <li><a href="{{ url('mensajes') }}">Mensajes</a></li>
         <li><a href="#">Modulos</a></li>
         <li class="last"><a href="#">Salir</a></li>
       </ul>
@@ -34,6 +34,12 @@
     <section id="slider"><a href="#"><img src="18631.jpg" alt=""></a></section>
     <!-- content body -->
     <aside id="left_column">
+      <h2 class="title">Cursos</h2>
+      <section class="last">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="{{ url('cursos/create') }}">Crear Curso</a>
+          <a class="navbar-brand" href="{{ url('cursos') }}">Mis Cursos</a>
+        </nav>
       <h2 class="title">Páginas UCT</h2>
       <nav>
         <ul>
@@ -43,12 +49,6 @@
         </ul>
       </nav>
       <!-- /nav -->
-      <h2 class="title">Contacto</h2>
-      <section class="last">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="{{ url('cursos/create') }}">Crear Curso</a>
-          <a class="navbar-brand" href="{{ url('cursos') }}">Mis Cursos</a>
-        </nav>
       </section>
       <!-- /section -->
     </aside>
