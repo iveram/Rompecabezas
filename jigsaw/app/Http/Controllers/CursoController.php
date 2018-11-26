@@ -56,7 +56,8 @@ class CursoController extends Controller
      */
     public function edit($id)
     {
-        //
+        $arreglo=['Programacion','26-11-2018','Curso de programacion','Documento','11:20','12:45','EB 204'];
+        return View('Cursos.modificarCurso',compact('arreglo'));
     }
 
     /**
@@ -68,7 +69,7 @@ class CursoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        return redirect('cursos');
     }
 
     /**
