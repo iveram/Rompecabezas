@@ -56,7 +56,8 @@ class temasController extends Controller
      */
     public function edit($id)
     {
-        //
+      $arreglo=['Programacion','26-11-2018','Curso de programacion','Documento','EB 204'];
+      return View('Temas.modificarTemas',compact('arreglo'));
     }
 
     /**
