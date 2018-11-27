@@ -45,7 +45,7 @@ class temasController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('temas.verTemas');
     }
 
     /**

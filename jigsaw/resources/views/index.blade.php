@@ -15,13 +15,12 @@
 
   <header id="header" class="clear">
     <div id="hgroup">
-      <h1><a href="#">Grupos Jigsaw</a></h1>
+      <h1><a href="/">Grupos Jigsaw</a></h1>
       <h2></h2>
     </div>
     <nav>
       <ul>
-        <li><a href="#">Bienvenido</a></li><!--Nombre del usuario--> 
-        <li><a href="#">Inicio</a></li>
+        <li><a href="/">Inicio</a></li>
         <li><a href="{{ url('cursos') }}">Cursos</a></li>
         <li><a href="{{ url('mensajes') }}">Mensajes</a></li>
         <li><a href="{{ url('temas') }}">Temas</a></li>

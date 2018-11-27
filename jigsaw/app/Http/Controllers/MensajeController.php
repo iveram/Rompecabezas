@@ -45,7 +45,7 @@ class mensajeController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('Mensajes.verMensajes');
     }
 
     /**

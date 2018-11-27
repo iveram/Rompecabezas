@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{asset('css/estilos.css')}}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 </head>
@@ -40,40 +40,33 @@
     </nav>
   </header>
 </div>
-<!-- content -->
-<div class="wrapper row2">
-  <div id="container" class="clear">
-    <section id="slider"><a href="#"><img src="18631.jpg" alt=""></a></section>
-    <!-- content body -->
-    <aside id="left_column">
-      <h2 class="title">Mensajes</h2>
-      <section class="last">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="{{ url('mensajes/create') }}">Enviar Mensaje</a>
-          <a class="navbar-brand" href="{{ url('mensajes/view') }}">Mis Mensajes</a>
-        </nav>
-      <h2 class="title">Páginas UCT</h2>
-      <nav>
-        <ul>
-          <li><a href="https://uct.cl/">Universidad Católica de Temuco</a></li>
-          <li><a href="https://estudiantes.uct.cl/">Portal de estudiantes</a></li>
-          <li><a href="https://educa.uct.cl/">Educa</a></li>
-        </ul>
-      </nav>
-      <!-- /nav -->
-      </section>
-      <!-- /section -->
-    </aside>
-    <!-- main content -->
-    <div id="content">
-      <article>
-        <h2>Seleccione una opción a su izquierda</h2>
-    </div>
-    <!-- / content body -->
-  </div>
-</div>
 <!-- footer -->
 <div class="wrapper row3">
+  <div class="container">
+    <table class="table table-stripped">
+      <thead>
+        <tr>
+          <th>Remitente</th>
+          <th>Fecha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+          <th>Mensaje</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>juanito espinoza</td>
+          <td>26-11-2018</td>
+          <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td>Julio Rojas</td>
+          <td>27-11-2018</td>
+          <td>Felicidades usted aprovó la asignatura de TALLER DE INTEGRACION II. tiene un 7</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <footer id="footer" class="clear">
     <p class="fl_left">Copyright &copy; 2018 - Derechos reservados - <a href="#">Taller Integracion II</a></p>
   </footer>
