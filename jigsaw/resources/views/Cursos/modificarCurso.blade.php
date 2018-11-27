@@ -67,7 +67,8 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
-            <button type="submit" class="btn btn-success"><a href="{{ url('cursos') }}">Aceptar cambios</a></button>
+            <button type="button" class="btn btn-success"><a href="{{ url('cursos') }}">Aceptar cambios</a></button>
+            <button type="button" class="btn btn-success"><a href="{{ url('cursos') }}">Cancelar</a></button>
           </div>
         </div>
       </form>
