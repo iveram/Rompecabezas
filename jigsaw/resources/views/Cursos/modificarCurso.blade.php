@@ -11,7 +11,7 @@
   <body>
     <div class="container" align="center">
       <h2>Ingrese los datos que desee actualizar</h2><br/>
-      <div class="container">https://www.humblebundle.com/store/darksiders-franchise-pack
+      <div class="container">
     </div>
       <form method="POST" action="/Cursos">
       @csrf
