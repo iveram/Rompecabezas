@@ -10,4 +10,4 @@ Burndown Sprint 2: https://docs.google.com/spreadsheets/d/1IlZnZ45Zik6S58onpMy_I
 
 Tareas Sprint 3: https://docs.google.com/spreadsheets/d/1nIpuTYCeBqI4fVpj_qo7Bhidr5VK7CoOLb4ZjPft8r8/edit?usp=sharing
 
-Burndown Sprint 3: https://docs.google.com/spreadsheets/d/1nIpuTYCeBqI4fVpj_qo7Bhidr5VK7CoOLb4ZjPft8r8/edit?usp=sharing
+Burndown Sprint 3: https://docs.google.com/spreadsheets/d/1ytXxLPAq2gPlbNaJNgdNCrdG5ZRN02GPEadeI0fxVFg/edit?usp=sharing
