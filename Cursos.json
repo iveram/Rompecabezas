@@ -1,0 +1,14 @@
+{
+    "cursos": [{
+        "id_": "5bdc6b4688b5a60db0a2cbd8",
+        "nombre_curso": "Python",
+        "fecha_inicio": "2018-11-06T00:00:00.000Z",
+        "descripcion_curso": "Curso básico de Python en Español",
+        "documentos": "Introduccion.docx",
+        "horarios": {
+            "hora_inicio": "2018-11-08T10:20:00.000Z",
+            "hora_termino": "2018-11-08T11:40:00.000Z",
+            "sala": "EB-204"
+        }
+    }]
+}
